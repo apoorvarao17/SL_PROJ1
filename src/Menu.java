@@ -68,8 +68,10 @@ public class Menu {
 	//Method to display Main Menu options with welcome message
 	public void showMainMenu()
 	{			
-		 System.out.println("\n\n##### Welcome to User File operations! #####");
-		 System.out.println("#### FILE OPERATIONS APPLICATION ###########");
+		System.out.println("\n\n################################################");
+		System.out.println("#### FILE OPERATIONS APPLICATION ###########");
+		System.out.println("################################################");
+		
 		 System.out.println("Choose what you want to do \n\n");
 		 int j=1;
 		 for (menu_option i:menu_option.values())
@@ -86,7 +88,7 @@ public class Menu {
 	//Show Buisiness operations menu
 	public void showBuisinessOperationMenu()
 	{			
-		 System.out.println("#### BUSINESS OPERATIONS ###########");
+		 System.out.println("\n\n #### BUSINESS OPERATIONS ###########");
 		 System.out.println("Choose what you want to do \n\n");
 		 int j=1;
 		 for (business_operation_menu_options i:business_operation_menu_options.values())

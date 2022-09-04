@@ -10,9 +10,21 @@ public class SL_PROJ_APPLICATION {
 		FolderOperations fo = new FolderOperations();
 		String folderPath;
 		
+		//Welcome Screen
+		System.out.println("################################################");
+		System.out.println("################################################");
+		System.out.println("#######   Welcome to User File operations! #####");
+		System.out.println("################################################");
+		System.out.println("################################################");
+		
+		
+		System.out.println("\n\n################################################");
+		System.out.println("#### FILE OPERATIONS APPLICATION ###########");
+		System.out.println("################################################");
+		
 		//Take the folder path for the application from user.
 		do {
-		System.out.println("Please enter the folder path:\n");
+		System.out.println("\n Please enter the Application folder path:\n");
 		folderPath = sc.next();
 		}while(!fo.setFolderPath(folderPath));//Set the folder path where operations are needed.
 		

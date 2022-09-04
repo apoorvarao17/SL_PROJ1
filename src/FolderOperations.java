@@ -140,7 +140,7 @@ public class FolderOperations {
 		System.out.println(fileName +" -File not Found");
 	}
 
-	//Search a file given by user in the Application folder and annuciate found/Not found.
+	//Search a file given by user in the Application folder and annunciate found/Not found.
 	public void SearchFile(String fileToSearch) {
 		
 		for(String i: fileList)
